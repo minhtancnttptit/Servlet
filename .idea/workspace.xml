@@ -8,60 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84ba8f3-0855-41d7-9633-0af35fc9fdb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_ear_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/HttpSessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/ShoppingCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/utility/Conversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/JspDocument.jspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/privateResource.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroundColor.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/declaration.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/excelReport.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/expressions.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/new1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/new2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/processForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/publicResource.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scriptlets.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/video1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/beans/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dynamicInclusion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/getterJsp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/handlingJavaBean.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/setterAllParamsJsp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/setterJsp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/setterParamJsp.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/minhtanit/HandleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/HandleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/privateResource.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/privateResource.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/servlet.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/CookiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/CookiesServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/DateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/DateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/DemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/ExcelGenerationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/ExcelGenerationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandlingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandlingFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/HelloWorldServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/RedirectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletHeaders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/TypeOfBrowserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/TypeOfBrowserServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/CookiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/CookiesServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ExcelGenerationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ExcelGenerationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandlingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandlingFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HelloWorldServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/RedirectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletHeaders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/TypeOfBrowserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/TypeOfBrowserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/META-INF/servlet.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/META-INF/servlet.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/servlet/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +51,8 @@
         <option value="CSS File" />
         <option value="jsf" />
         <option value="Jspx File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -131,6 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -438,7 +398,7 @@
       <workItem from="1575205790383" duration="1248000" />
       <workItem from="1575289495356" duration="2893000" />
       <workItem from="1575292493425" duration="942000" />
-      <workItem from="1575471170124" duration="1769000" />
+      <workItem from="1575471170124" duration="6882000" />
     </task>
     <servers />
   </component>
@@ -463,58 +423,62 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1575292800802" />
+    <state x="803" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1575475279151">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="803" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1575475279151" />
     <state x="678" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575292069577">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="678" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1575292069577" />
-    <state width="1242" height="258" key="GridCell.Tab.0.bottom" timestamp="1575472931505">
+    <state width="1242" height="258" key="GridCell.Tab.0.bottom" timestamp="1575477822320">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931505" />
-    <state width="1242" height="258" key="GridCell.Tab.0.center" timestamp="1575472931504">
+    <state width="1242" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822320" />
+    <state width="1242" height="258" key="GridCell.Tab.0.center" timestamp="1575477822319">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931504" />
-    <state width="1242" height="258" key="GridCell.Tab.0.left" timestamp="1575472931502">
+    <state width="1242" height="258" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822319" />
+    <state width="1242" height="258" key="GridCell.Tab.0.left" timestamp="1575477822319">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931502" />
-    <state width="1242" height="258" key="GridCell.Tab.0.right" timestamp="1575472931504">
+    <state width="1242" height="258" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822319" />
+    <state width="1242" height="258" key="GridCell.Tab.0.right" timestamp="1575477822320">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931504" />
-    <state width="1242" height="258" key="GridCell.Tab.1.bottom" timestamp="1575472931508">
+    <state width="1242" height="258" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822320" />
+    <state width="1242" height="258" key="GridCell.Tab.1.bottom" timestamp="1575477822264">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931508" />
-    <state width="1242" height="258" key="GridCell.Tab.1.center" timestamp="1575472931507">
+    <state width="1242" height="258" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822264" />
+    <state width="1242" height="258" key="GridCell.Tab.1.center" timestamp="1575477822263">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931507" />
-    <state width="1242" height="258" key="GridCell.Tab.1.left" timestamp="1575472931506">
+    <state width="1242" height="258" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822263" />
+    <state width="1242" height="258" key="GridCell.Tab.1.left" timestamp="1575477822263">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931506" />
-    <state width="1242" height="258" key="GridCell.Tab.1.right" timestamp="1575472931508">
+    <state width="1242" height="258" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822263" />
+    <state width="1242" height="258" key="GridCell.Tab.1.right" timestamp="1575477822264">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931508" />
-    <state width="1242" height="258" key="GridCell.Tab.2.bottom" timestamp="1575472931510">
+    <state width="1242" height="258" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822264" />
+    <state width="1242" height="258" key="GridCell.Tab.2.bottom" timestamp="1575477822263">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.2.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931510" />
-    <state width="1242" height="258" key="GridCell.Tab.2.center" timestamp="1575472931509">
+    <state width="1242" height="258" key="GridCell.Tab.2.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822263" />
+    <state width="1242" height="258" key="GridCell.Tab.2.center" timestamp="1575477822263">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.2.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931509" />
-    <state width="1242" height="258" key="GridCell.Tab.2.left" timestamp="1575472931509">
+    <state width="1242" height="258" key="GridCell.Tab.2.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822263" />
+    <state width="1242" height="258" key="GridCell.Tab.2.left" timestamp="1575477822263">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.2.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931509" />
-    <state width="1242" height="258" key="GridCell.Tab.2.right" timestamp="1575472931510">
+    <state width="1242" height="258" key="GridCell.Tab.2.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822263" />
+    <state width="1242" height="258" key="GridCell.Tab.2.right" timestamp="1575477822263">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1242" height="258" key="GridCell.Tab.2.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931510" />
+    <state width="1242" height="258" key="GridCell.Tab.2.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575477822263" />
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575471170164">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -523,5 +487,13 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1575292666231" />
+    <state x="764" y="258" width="451" height="597" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575475321579">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="764" y="258" width="451" height="597" key="com.intellij.testIntegration.createTest.CreateTestDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1575475321579" />
+    <state x="658" y="259" key="search.everywhere.popup" timestamp="1575475191951">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="658" y="259" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1575475191951" />
   </component>
 </project>

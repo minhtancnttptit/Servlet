@@ -204,5 +204,9 @@
       </ul>
     </span>
 
+    <br>
+    <a href="dynamicInclusion.jsp">Link to a Dynamic Inclusion Example</a>
+    <br>
+    <a href="handlingJavaBean.jsp">Link to a Jsp handling JavaBean</a>
 </body>
 </html>
