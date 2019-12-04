@@ -2,12 +2,67 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="servlet:war" />
       <artifact name="servlet:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84ba8f3-0855-41d7-9633-0af35fc9fdb3" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a84ba8f3-0855-41d7-9633-0af35fc9fdb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_ear_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/HttpSessionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/ShoppingCartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/utility/Conversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/JspDocument.jspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/privateResource.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backgroundColor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/declaration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/excelReport.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/expressions.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/new1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/new2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/processForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/publicResource.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scriptlets.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/video1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/minhtanit/HandleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/minhtanit/HandleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/servlet.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/CookiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/CookiesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/DateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/DateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/DemoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/ExcelGenerationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/ExcelGenerationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandlingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/HandlingFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/HelloWorldServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/RedirectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/ServletHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/minhtanit/TypeOfBrowserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/minhtanit/TypeOfBrowserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/CookiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/CookiesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/DemoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ExcelGenerationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ExcelGenerationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandlingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HandlingFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/HelloWorldServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/RedirectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/ServletHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/TypeOfBrowserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/tk/minhtanit/TypeOfBrowserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +88,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="jsf" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
+        <option value="jsf" />
+        <option value="Jspx File" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -61,8 +121,14 @@
   </component>
   <component name="ProjectId" id="1TB7SPkRsvuY8qa4l5KkyAQETAz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -73,35 +139,48 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tk.minhtanit.Main" />
+      <module name="servlet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.minhtanit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Servlet/a.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="functions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/webapp/functions.js" working-dir="$PROJECT_DIR$/src/main/webapp">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/servlet/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="servlet:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/HelloWorldServlet" />
+            <option name="CONTEXT_PATH" value="/servlet" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_24_servlet_7" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_24_servlet" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -160,6 +239,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="servlet:war exploded" />
+          <artifact name="servlet:war" />
         </option>
       </method>
     </configuration>
@@ -226,6 +306,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="servlet:war exploded" />
+          <artifact name="servlet:war" />
         </option>
       </method>
     </configuration>
@@ -287,84 +368,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="servlet:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/servlet_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_servlet" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="34505" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="servlet:war exploded" />
-        </option>
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JavaScript Debug.a.jsp" />
+      <item itemvalue="Node.js.functions.js" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Node.js.functions.js" />
+        <item itemvalue="JavaScript Debug.a.jsp" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -380,11 +417,111 @@
       <workItem from="1572931388830" duration="2328000" />
       <workItem from="1572938666524" duration="7922000" />
       <workItem from="1572964791393" duration="3179000" />
-      <workItem from="1572971064252" duration="1258000" />
+      <workItem from="1572971064252" duration="1407000" />
+      <workItem from="1572972521650" duration="194000" />
+      <workItem from="1572999172221" duration="972000" />
+      <workItem from="1573002334146" duration="2167000" />
+      <workItem from="1573027358869" duration="261000" />
+      <workItem from="1573036376405" duration="612000" />
+      <workItem from="1573100564724" duration="389000" />
+      <workItem from="1573130087132" duration="888000" />
+      <workItem from="1573179512562" duration="3275000" />
+      <workItem from="1573188207102" duration="1550000" />
+      <workItem from="1573225690648" duration="3212000" />
+      <workItem from="1574657177667" duration="1453000" />
+      <workItem from="1574730460984" duration="5356000" />
+      <workItem from="1574738156280" duration="103000" />
+      <workItem from="1574752967333" duration="2006000" />
+      <workItem from="1574912356804" duration="2045000" />
+      <workItem from="1574920688760" duration="9129000" />
+      <workItem from="1575205681415" duration="74000" />
+      <workItem from="1575205790383" duration="1248000" />
+      <workItem from="1575289495356" duration="2893000" />
+      <workItem from="1575292493425" duration="942000" />
+      <workItem from="1575471170124" duration="1769000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575292800802">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1575292800802" />
+    <state x="678" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575292069577">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="678" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1575292069577" />
+    <state width="1242" height="258" key="GridCell.Tab.0.bottom" timestamp="1575472931505">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931505" />
+    <state width="1242" height="258" key="GridCell.Tab.0.center" timestamp="1575472931504">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931504" />
+    <state width="1242" height="258" key="GridCell.Tab.0.left" timestamp="1575472931502">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931502" />
+    <state width="1242" height="258" key="GridCell.Tab.0.right" timestamp="1575472931504">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931504" />
+    <state width="1242" height="258" key="GridCell.Tab.1.bottom" timestamp="1575472931508">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931508" />
+    <state width="1242" height="258" key="GridCell.Tab.1.center" timestamp="1575472931507">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931507" />
+    <state width="1242" height="258" key="GridCell.Tab.1.left" timestamp="1575472931506">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931506" />
+    <state width="1242" height="258" key="GridCell.Tab.1.right" timestamp="1575472931508">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931508" />
+    <state width="1242" height="258" key="GridCell.Tab.2.bottom" timestamp="1575472931510">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.2.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931510" />
+    <state width="1242" height="258" key="GridCell.Tab.2.center" timestamp="1575472931509">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.2.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931509" />
+    <state width="1242" height="258" key="GridCell.Tab.2.left" timestamp="1575472931509">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.2.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931509" />
+    <state width="1242" height="258" key="GridCell.Tab.2.right" timestamp="1575472931510">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1242" height="258" key="GridCell.Tab.2.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575472931510" />
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575471170164">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1575471170164" />
+    <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575292666231">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1575292666231" />
   </component>
 </project>

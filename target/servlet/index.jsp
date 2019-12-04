@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.Date" %><%--
   Created by IntelliJ IDEA.
   User: minhtanit
   Date: 05/11/2019
@@ -120,8 +120,89 @@
     <a href="ExcelGenerationServlet">Link to servlet that generates an excel</a>
     <br>
     <a href="DateServlet">Link to servlet that updates the date</a>
-    Test git
-    sua de test conlict
-    sua de test conflict   2
+    <br>
+    <h1>Cookies Example</h1>
+    <a href="CookiesServlet">Link to the Servlet that verifies if you have already visted the resource proviously</a>
+    <h1>HttpSession Example</h1>
+    <a href="HttpSessionServlet">Link to the HttpSession Servlet</a>
+    <h1>Shopping Cart Example</h1>
+    <form action="ShoppingCartServlet" method="post" name="form1">
+        Item to add:
+        <input type="text" name="item">
+        <br>
+        <input type="submit" value="Send">
+    </form>
+    <h1>Exercise of Hello World with JSPs</h1>
+    <ul>
+        <li>Hello World with HTML</li>
+        <li> ${"Hello World with Expression Language (EL)"}
+    </ul>
+    <!--Some server-side values -->
+    <ul>
+        <li> Hello: <%= new Date()%>
+        <li> Context Name of the application:
+                <%= request.getContextPath()%>
+        <li> Value of the parameter x:
+                <%= request.getParameter("x")%>
+    </ul>
+    <br>
+    <a href="expressions.jsp">Link to Expression JSP</a>
+    <br>
+    <form name="form1" action="processForm.jsp" method="post">
+        Username: <input type="text" name="username">
+        <br>
+        Password: <input type="password" name="password">
+        <br>
+        <input type="submit" value="Send">
+    </form>
+    <br>
+    <a href="scriptlets.jsp">Scriptlets Example</a>
+    <br>
+    <form action="backgroundColor.jsp">
+        <input type="text" name="backgroundColor">
+        <br>
+        <input type="submit" value="Send">
+    </form>
+    <br>
+    <a href="declaration.jsp">Example of Declaration</a>
+    <br>
+    <a href="JspDocument.jspx">Link to JSPx Document</a>
+    <br>
+    <a href="excelReport.jsp">Link to excel report</a>
+    <br>
+    <br>
+    <h1>Static Inclusion</h1>
+
+    <!--Code this for every menu-->
+    <br>
+    <!--main menu-->
+    <span class="news" align="left">
+      <a href="javascript:display('news');">
+        <img border="0" src="http://icursos.net/en/Servlets/Lesson14/news.png">
+      </a>
+    </span>
+    <span id="news" class="hide_menu">
+      <!--Submenu-->
+      <ul>
+        <li><%@include file="new1.html" %></li>
+        <li><%@include file="new2.html" %></li>
+      </ul>
+    </span>
+
+    <!--Code this for every menu-->
+    <br>
+    <!--main menu-->
+    <span class="videos" align="left">
+      <a href="javascript:display('videos');">
+        <img border="0" src="http://icursos.net/en/Servlets/Lesson14/videos.png">
+      </a>
+    </span>
+    <span id="videos" class="hide_menu">
+      <!--Submenu-->
+      <ul>
+        <li><%@include file="video1.html" %></li>
+      </ul>
+    </span>
+
 </body>
 </html>

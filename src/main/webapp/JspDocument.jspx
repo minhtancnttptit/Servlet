@@ -1,0 +1,32 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: minhtanit
+  Date: 28/11/2019
+  Time: 13:30
+  To change this template use File | Settings | File Templates.
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+    <jsp:directive.page contentType="text/html; ISO-8859-1" pageEncoding="utf-8" />
+    <jsp:declaration>
+        private int visitCounter = 1;
+    </jsp:declaration>
+    <html>
+    <head><title>JSP Document</title></head>
+    <body>
+        <h1>JSPx Document Example</h1>
+        <jsp:text>Greetings from a JSP Document</jsp:text>
+        <br/>
+        Mathematic expression 2 * 4 =
+        <jsp:expression>2 * 4</jsp:expression>
+        <br/>
+        <jsp:scriptlet>
+            String appName = request.getContextPath();
+        </jsp:scriptlet>
+        Application name:
+        <jsp:expression>appName</jsp:expression>
+        <br/>
+        Visit counter:
+        <jsp:expression>this.visitCounter++</jsp:expression>
+    </body>
+    </html>
+</jsp:root>

@@ -39,3 +39,11 @@ body, .default {
     color: #339;
     background: #eff2ff;
 }
+
+.show_menu {
+    display: block;
+}
+
+.hide_menu {
+    display: none;
+}

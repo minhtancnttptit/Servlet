@@ -56,3 +56,13 @@ function validateForm(form) {
     alert("Valid form, sending data to server");
     return true;
 }
+
+function display(category){
+    var menu = document.getElementById(category);
+    if(menu.className == "show_menu"){
+        menu.className = "hide_menu";
+    }
+    else{
+        menu.className = "show_menu";
+    }
+}

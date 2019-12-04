@@ -16,21 +16,24 @@ public class HandleServlet extends HttpServlet {
         String password = request.getParameter("password");
         System.out.println("username: " + username);
         System.out.println("password: " + password);
-        try {
-            PrintWriter out = response.getWriter();
-            out.print("<!DOCTYPE html>\n" +
-                    "<html>\n" +
-                    "<head>\n" +
-                    "<title>Handle Parameter</title>\n" +
-                    "</head>\n" +
-                    "<body>" +
-                    "doGet method send data to url\n" +
-                    "<br>\n" +
-                    "</body>\n" +
-                    "</html>");
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (username.equals("admin")) {
+            try {
+                PrintWriter out = response.getWriter();
+                out.print("<!DOCTYPE html>\n" +
+                        "<html>\n" +
+                        "<head>\n" +
+                        "<title>Handle Parameter</title>\n" +
+                        "</head>\n" +
+                        "<body>" +
+                        "doGet method send data to url\n" +
+                        "<br>\n" +
+                        "</body>\n" +
+                        "</html>");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+
 
         try {
             PrintWriter out = response.getWriter();
@@ -51,27 +54,31 @@ public class HandleServlet extends HttpServlet {
     }
 
     @Override
-    public void doPost(HttpServletRequest request, HttpServletResponse response) {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         System.out.println("username: " + username);
         System.out.println("password: " + password);
-
-        try {
-            PrintWriter out = response.getWriter();
-            out.print("<!DOCTYPE html>\n" +
-                    "<html>" +
-                    "<head>" +
-                    "<title>Handling Parameter</title>\n" +
-                    "</head>\n" +
-                    "<body>\n" +
-                    "The username parameter is: " + username + "\n" +
-                    "<br>\n" +
-                    "The password parameter is: " + password + "\n" +
-                    "</body>\n" +
-                    "</html>");
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (username.equals("admin")) {
+            response.sendRedirect("http://google.com");
+        } else {
+            try {
+                PrintWriter out = response.getWriter();
+                out.print("<!DOCTYPE html>\n" +
+                        "<html>" +
+                        "<head>" +
+                        "<title>Handling Parameter</title>\n" +
+                        "</head>\n" +
+                        "<body>\n" +
+                        "The username parameter is: " + username + "\n" +
+                        "<br>\n" +
+                        "The password parameter is: " + password + "\n" +
+                        "</body>\n" +
+                        "</html>");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+
     }
 }
