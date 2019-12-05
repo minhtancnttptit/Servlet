@@ -1,0 +1,33 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: minhtanit
+  Date: 05/12/2019
+  Time: 22:02
+  To change this template use File | Settings | File Templates.
+-->
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+
+    <html>
+    <head><title>JavaBeans and JSTL</title></head>
+    <body>
+        <h1>Iterating a list of JavaBean of type Rectangle</h1>
+        <jsp:useBean id="rectangle1" class="tk.minhtanit.beans.Rectangle">
+            <jsp:setProperty name="rectangle1" property="width" value="2"/>
+            <jsp:setProperty name="rectangle1" property="length" value="4"/>
+        </jsp:useBean>
+
+        <jsp:useBean id="rectangle2" class="tk.minhtanit.beans.Rectangle">
+            <jsp:setProperty name="rectangle2" property="width" value="3"/>
+            <jsp:setProperty name="rectangle2" property="length" value="5"/>
+        </jsp:useBean>
+        <jsp:useBean id="rectangles" class="tk.minhtanit.beans.RectangleList">
+            <jsp:setProperty name="rectangles" property="rectangle" value="${rectangle1}"/>
+            <jsp:setProperty name="rectangles" property="rectangle" value="${rectangle2}"/>
+        </jsp:useBean>
+        <ul>
+            <jsp:
+        </ul>
+    </body>
+    </html>
+</jsp:root>

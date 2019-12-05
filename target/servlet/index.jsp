@@ -208,5 +208,7 @@
     <a href="dynamicInclusion.jsp">Link to a Dynamic Inclusion Example</a>
     <br>
     <a href="handlingJavaBean.jsp">Link to a Jsp handling JavaBean</a>
+    <br>
+    <a href="expressionLanguageJsp.jsp">Link to a expression language example</a>
 </body>
 </html>
